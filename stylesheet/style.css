@@ -1,0 +1,73 @@
+#logo-container {
+    text-align: center;
+    margin-bottom: 30px;
+    }
+
+#logo {
+    width: 10%;
+}
+
+#sottotitolo {
+    text-align: center;
+    background-color: #fffee2;
+    height: 20px;
+    border-top: solid rgb(255, 201, 53);
+    padding: 20px;
+    }
+
+#sottotitolo span {
+    color: rgb(0, 133, 133);
+}
+
+#sottotitolo span:last-child {
+    font-weight: 800;
+}
+
+header div:last-child {
+    padding-top: 40px;
+    text-align: center;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main article:first-child {
+    width: 55%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main article img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(151, 151, 151, 0.5);
+}
+
+main article h5 {
+    color: rgb(202, 202, 202);
+}
+
+#feature-container {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: solid rgb(255, 201, 53);
+}
+
+#feature-container h4{
+    color: orangered;
+}
+
+#feature-container a {
+    color: rgb(0, 133, 133);
+}
+
+main article:nth-child(3){
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main hr {
+    color: rgb(0, 224, 224);
+}
