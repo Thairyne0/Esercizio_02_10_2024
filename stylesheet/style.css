@@ -10,9 +10,9 @@
 #sottotitolo {
     text-align: center;
     background-color: #fffee2;
-    height: 20px;
+    /* height: 20px; */
     border-top: solid rgb(255, 201, 53);
-    padding: 20px;
+    padding: 15px;
     }
 
 #sottotitolo span {
@@ -55,10 +55,10 @@ main article h5 {
 }
 
 #feature-container h4{
-    color: orangered;
+    color: rgb(255, 126, 79);
 }
 
-#feature-container a {
+main a {
     color: rgb(0, 133, 133);
 }
 
@@ -70,4 +70,14 @@ main article:nth-child(3){
 
 main hr {
     color: rgb(0, 224, 224);
+}
+
+main article:last-child{
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main article:last-child li{
+    font-weight: 700;
 }
